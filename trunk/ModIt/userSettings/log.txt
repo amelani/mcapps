@@ -1,0 +1,155 @@
+22:41:36: Starting:
+World of Warcraft Model Viewer v0.5.08 (Chuanhsing Update r654)
+
+
+22:41:36: Searching for MPQ archive patch-2.mpq...
+22:41:36: - Found MPQ archive: D:\World of Warcraft\Data\patch-2.MPQ
+22:41:36: Searching for MPQ archive patch.mpq...
+22:41:36: - Found MPQ archive: D:\World of Warcraft\Data\patch.MPQ
+22:41:36: Searching for MPQ archive lichking.mpq...
+22:41:36: - Found MPQ archive: D:\World of Warcraft\Data\lichking.MPQ
+22:41:36: Searching for MPQ archive expansion.mpq...
+22:41:36: - Found MPQ archive: D:\World of Warcraft\Data\expansion.MPQ
+22:41:36: Searching for MPQ archive common-2.mpq...
+22:41:36: - Found MPQ archive: D:\World of Warcraft\Data\common-2.MPQ
+22:41:36: Searching for MPQ archive common.mpq...
+22:41:36: - Found MPQ archive: D:\World of Warcraft\Data\common.MPQ
+22:41:36: Initiating Objects...
+22:41:36: Creating Anim Control...
+22:41:36: Creating Char Control...
+22:41:36: Creating Light Control...
+22:41:36: Creating Model Control...
+22:41:36: Creating Settings Control...
+22:41:37: Creating Model Bank Control...
+22:41:37: Creating Model Opened...
+22:41:37: Creating Attachment Editor...
+22:41:37: Creating OpenGL Canvas...
+22:41:37: Initiating OpenGL...
+22:41:38: Info: GLEW successfully initiated.
+
+22:41:38: Video Renderer: GeForce 9650M GT/PCI/SSE2
+22:41:38: Video Vendor: NVIDIA Corporation
+22:41:38: Driver Version: 3.0.0
+22:41:38: Support wglPixelFormat: true
+22:41:38: Support Texture Compression: true
+22:41:38: Support Multi-Textures: true
+22:41:38: Support Draw Range Elements: true
+22:41:38: Support Vertex Buffer Objects: true
+22:41:38: Support Point Sprites: true
+22:41:38: Support Pixel Shaders: true
+22:41:38: Support Vertex Shaders: true
+22:41:38: Support GLSL: true
+22:41:38: Support Anti-Aliasing: true
+22:41:38: Support Pixel Buffer Objects: true
+22:41:38: Support Frame Buffer Objects: true
+22:41:38: Support Non-Power-of-Two: true
+22:41:38: Support Rectangle Textures: true
+22:41:38: Support OpenGL 2.0: true
+22:41:38: Max Rectangle Texture Size Supported: 8192
+22:41:38: Max Texture Size Supported: 8192
+
+22:41:38: Creating OpenGL Canvas...
+22:41:38: Initiating OpenGL...
+22:41:38: Loading Session settings from: C:\Users\Daniel\Downloads\ModIt/userSettings/Config.ini
+
+22:41:38: Initiating File Menu..
+22:41:38: Initiating GUI Docking.
+22:41:38: Max Lights used: 4
+22:41:38: Setting OpenGL render state...
+22:41:38: Initiating Archives...
+
+22:41:38: Game Data Path: D:\World of Warcraft\Data\
+22:41:38: Use Local Files: false
+
+22:41:38: Opening D:\World of Warcraft\Data\patch-2.MPQ
+22:41:39: Opening D:\World of Warcraft\Data\patch.MPQ
+22:41:39: Opening D:\World of Warcraft\Data\lichking.MPQ
+22:41:39: Opening D:\World of Warcraft\Data\expansion.MPQ
+22:41:39: Opening D:\World of Warcraft\Data\common-2.MPQ
+22:41:39: Opening D:\World of Warcraft\Data\common.MPQ
+22:41:39: Opening D:\World of Warcraft\Data\deDE\patch-deDE-2.MPQ
+22:41:39: Opening D:\World of Warcraft\Data\deDE\patch-deDE.MPQ
+22:41:39: Opening D:\World of Warcraft\Data\deDE\lichking-locale-deDE.MPQ
+22:41:39: Opening D:\World of Warcraft\Data\deDE\expansion-locale-deDE.MPQ
+22:41:39: Opening D:\World of Warcraft\Data\deDE\locale-deDE.MPQ
+22:41:39: Opening D:\World of Warcraft\Data\deDE\base-deDE.MPQ
+22:41:39: Loaded Content TOC: v3.03.00
+22:41:39: Error: This version only support 3.02.00, please update your World of Warcraft client!
+22:41:39: Loaded Content Version: 10958
+22:41:41: Initiating Databases...
+22:41:42: Finished initiating database files.
+22:41:42: WoW Model Viewer successfully loaded!
+----
+
+22:41:56: Loading model: Creature\Arthas\arthas.m2
+
+22:41:56: Loading texture: CREATURE\ARTHAS\ARTHAS_02.BLP
+22:41:56: Loading texture: CREATURE\ARTHAS\ARTHAS_01.BLP
+22:42:57: Loading model: Creature\Arakkoa\arakkoa.m2
+
+22:42:57: Loading texture: Creature\Arakkoa\Arakkoa_Green.blp
+22:43:49: Loading model: ENVIRONMENTS\Stars\UlduranCloudySky.m2
+
+22:43:49: Loading texture: ENVIRONMENTS\STARS\NEXUSRAID_STARSB.BLP
+22:43:49: Loading texture: ENVIRONMENTS\STARS\NEXUSRAID_STARSA.BLP
+22:43:49: Loading texture: ENVIRONMENTS\STARS\ULDURAN_CLOUDS_NIGHT.BLP
+22:43:49: Loading texture: ENVIRONMENTS\STARS\WINTERGRASP_CLOUDMASK01.BLP
+22:43:49: Loading texture: ENVIRONMENTS\STARS\ULDURAN_CLOUDS.BLP
+22:43:49: Loading texture: ENVIRONMENTS\STARS\ULDURAN_CLOUDCOVER_NIGHT.BLP
+22:43:49: Loading texture: ENVIRONMENTS\STARS\ICECROWN_CLOUDSA02_MASK01.BLP
+22:43:49: Loading texture: ENVIRONMENTS\STARS\ULDURAN_CLOUDCOVER.BLP
+22:43:49: Loading texture: ENVIRONMENTS\STARS\ULDURAN_SKYBOWL_NIGHT.BLP
+22:43:49: Loading texture: ENVIRONMENTS\STARS\ULDURAN_SKYBOWLA.BLP
+22:43:49: Loading texture: ENVIRONMENTS\STARS\AURORALIGHT_OR_B.BLP
+22:43:49: Loading texture: ENVIRONMENTS\STARS\AURORAMASK_B_ORANGE.BLP
+22:44:36: Loading model: Character\Bloodelf\male\bloodelfmale.m2
+
+22:44:36: Loading texture: CHARACTER\BLOODELF\MALE\BLOODELFFEMALEEYEGLOWGREEN.BLP
+22:44:36: Loading texture: CHARACTER\BLOODELF\FEMALE\DEATHKNIGHTEYEGLOW.BLP
+22:44:37: Loading texture: Character\BloodElf\Hair00_03.blp
+22:44:37: Loading texture: Character\BloodElf\Male\BloodElfMaleSkin00_08.blp
+22:44:37: Loading texture: Character\BloodElf\Male\BloodElfMaleNakedPelvisSkin00_08.blp
+22:44:37: Loading texture: Character\BloodElf\Male\BloodElfMaleNakedTorsoSkin00_08.blp
+22:44:37: Loading texture: Character\BloodElf\Male\BloodElfMaleFaceLower08_08.blp
+22:44:37: Loading texture: Character\BloodElf\Male\BloodElfMaleFaceUpper08_08.blp
+22:44:37: Error: Could not load the texture 'Character\BloodElf\FacialLowerHair00_03.blp'
+22:44:37: Error: Could not load the texture 'Character\BloodElf\FacialUpperHair00_03.blp'
+22:44:49: Loading model: ENVIRONMENTS\Stars\UlduranCloudySky.m2
+
+22:44:49: Loading texture: ENVIRONMENTS\STARS\NEXUSRAID_STARSB.BLP
+22:44:49: Loading texture: ENVIRONMENTS\STARS\NEXUSRAID_STARSA.BLP
+22:44:49: Loading texture: ENVIRONMENTS\STARS\ULDURAN_CLOUDS_NIGHT.BLP
+22:44:49: Loading texture: ENVIRONMENTS\STARS\WINTERGRASP_CLOUDMASK01.BLP
+22:44:49: Loading texture: ENVIRONMENTS\STARS\ULDURAN_CLOUDS.BLP
+22:44:49: Loading texture: ENVIRONMENTS\STARS\ULDURAN_CLOUDCOVER_NIGHT.BLP
+22:44:49: Loading texture: ENVIRONMENTS\STARS\ICECROWN_CLOUDSA02_MASK01.BLP
+22:44:49: Loading texture: ENVIRONMENTS\STARS\ULDURAN_CLOUDCOVER.BLP
+22:44:49: Loading texture: ENVIRONMENTS\STARS\ULDURAN_SKYBOWL_NIGHT.BLP
+22:44:49: Loading texture: ENVIRONMENTS\STARS\ULDURAN_SKYBOWLA.BLP
+22:44:49: Loading texture: ENVIRONMENTS\STARS\AURORALIGHT_OR_B.BLP
+22:44:49: Loading texture: ENVIRONMENTS\STARS\AURORAMASK_B_ORANGE.BLP
+22:44:56: Loading texture: Character\BloodElf\Hair00_03.blp
+22:44:56: Loading texture: Character\BloodElf\Male\BloodElfMaleSkin00_09.blp
+22:44:56: Loading texture: Character\BloodElf\Male\BloodElfMaleNakedPelvisSkin00_09.blp
+22:44:56: Loading texture: Character\BloodElf\Male\BloodElfMaleNakedTorsoSkin00_09.blp
+22:44:56: Loading texture: Character\BloodElf\Male\BloodElfMaleFaceLower08_09.blp
+22:44:56: Loading texture: Character\BloodElf\Male\BloodElfMaleFaceUpper08_09.blp
+22:44:56: Error: Could not load the texture 'Character\BloodElf\FacialLowerHair00_03.blp'
+22:44:56: Error: Could not load the texture 'Character\BloodElf\FacialUpperHair00_03.blp'
+22:44:56: Loading texture: Character\BloodElf\Male\BloodElfMaleSkin00_08.blp
+22:44:56: Loading texture: Character\BloodElf\Male\BloodElfMaleNakedPelvisSkin00_08.blp
+22:44:56: Loading texture: Character\BloodElf\Male\BloodElfMaleNakedTorsoSkin00_08.blp
+22:44:56: Loading texture: Character\BloodElf\Male\BloodElfMaleFaceLower08_08.blp
+22:44:56: Loading texture: Character\BloodElf\Male\BloodElfMaleFaceUpper08_08.blp
+22:44:56: Error: Could not load the texture 'Character\BloodElf\FacialLowerHair00_03.blp'
+22:44:56: Error: Could not load the texture 'Character\BloodElf\FacialUpperHair00_03.blp'
+22:44:57: Loading texture: Character\BloodElf\Male\BloodElfMaleSkin00_07.blp
+22:44:57: Loading texture: Character\BloodElf\Male\BloodElfMaleNakedPelvisSkin00_07.blp
+22:44:57: Loading texture: Character\BloodElf\Male\BloodElfMaleNakedTorsoSkin00_07.blp
+22:44:57: Loading texture: Character\BloodElf\Male\BloodElfMaleFaceLower08_07.blp
+22:44:57: Loading texture: Character\BloodElf\Male\BloodElfMaleFaceUpper08_07.blp
+22:44:57: Error: Could not load the texture 'Character\BloodElf\FacialLowerHair00_03.blp'
+22:44:57: Error: Could not load the texture 'Character\BloodElf\FacialUpperHair00_03.blp'
+22:47:42: Shuting down the program...
+
+22:47:42: Info: GUI Layout was saved.
