@@ -1,0 +1,125 @@
+19:58:03: Starting:
+ModIt v0.1
+
+
+19:58:03: Searching for MPQ archive patch-2.mpq...
+19:58:03: - Found MPQ archive: C:\World of Warcraft\Data\patch-2.MPQ
+19:58:03: Searching for MPQ archive patch.mpq...
+19:58:03: - Found MPQ archive: C:\World of Warcraft\Data\patch.MPQ
+19:58:03: Searching for MPQ archive lichking.mpq...
+19:58:03: - Found MPQ archive: C:\World of Warcraft\Data\lichking.MPQ
+19:58:03: Searching for MPQ archive expansion.mpq...
+19:58:03: - Found MPQ archive: C:\World of Warcraft\Data\expansion.MPQ
+19:58:03: Searching for MPQ archive common-2.mpq...
+19:58:03: - Found MPQ archive: C:\World of Warcraft\Data\common-2.MPQ
+19:58:03: Searching for MPQ archive common.mpq...
+19:58:03: - Found MPQ archive: C:\World of Warcraft\Data\common.MPQ
+19:58:03: Initiating Objects...
+19:58:03: Creating Anim Control...
+19:58:03: Creating Char Control...
+19:58:03: Creating Light Control...
+19:58:03: Creating Model Control...
+19:58:03: Creating Settings Control...
+19:58:03: Creating Model Bank Control...
+19:58:03: Creating Model Opened...
+19:58:03: Creating Attachment Editor...
+19:58:03: Creating Attachment Editor...
+19:58:03: Creating OpenGL Canvas...
+19:58:03: Initiating OpenGL...
+19:58:03: Info: GLEW successfully initiated.
+
+19:58:03: Video Renderer: GeForce 9650M GT/PCI/SSE2
+19:58:03: Video Vendor: NVIDIA Corporation
+19:58:03: Driver Version: 3.0.0
+19:58:03: Support wglPixelFormat: true
+19:58:03: Support Texture Compression: true
+19:58:03: Support Multi-Textures: true
+19:58:03: Support Draw Range Elements: true
+19:58:03: Support Vertex Buffer Objects: true
+19:58:03: Support Point Sprites: true
+19:58:03: Support Pixel Shaders: true
+19:58:03: Support Vertex Shaders: true
+19:58:03: Support GLSL: true
+19:58:03: Support Anti-Aliasing: true
+19:58:03: Support Pixel Buffer Objects: true
+19:58:03: Support Frame Buffer Objects: true
+19:58:03: Support Non-Power-of-Two: true
+19:58:03: Support Rectangle Textures: true
+19:58:03: Support OpenGL 2.0: true
+19:58:03: Max Rectangle Texture Size Supported: 8192
+19:58:03: Max Texture Size Supported: 8192
+
+19:58:03: Creating OpenGL Canvas...
+19:58:03: Initiating OpenGL...
+19:58:04: Loading Session settings from: D:\Modelchanging\unknown\unkn0wnProject\trunk\Programme\ModIt\bin/userSettings/Config.ini
+
+19:58:04: Initiating File Menu..
+19:58:04: Initiating GUI Docking.
+19:58:04: Max Lights used: 4
+19:58:04: Setting OpenGL render state...
+19:58:04: Initiating Archives...
+
+19:58:04: Game Data Path: C:\World of Warcraft\Data\
+19:58:04: Use Local Files: false
+
+19:58:04: Opening C:\World of Warcraft\Data\patch-2.MPQ
+19:58:04: Opening C:\World of Warcraft\Data\patch.MPQ
+19:58:04: Opening C:\World of Warcraft\Data\lichking.MPQ
+19:58:04: Opening C:\World of Warcraft\Data\expansion.MPQ
+19:58:04: Opening C:\World of Warcraft\Data\common-2.MPQ
+19:58:04: Opening C:\World of Warcraft\Data\common.MPQ
+19:58:04: Opening C:\World of Warcraft\Data\deDE\patch-deDE-2.MPQ
+19:58:04: Opening C:\World of Warcraft\Data\deDE\patch-deDE.MPQ
+19:58:04: Opening C:\World of Warcraft\Data\deDE\lichking-locale-deDE.MPQ
+19:58:04: Opening C:\World of Warcraft\Data\deDE\expansion-locale-deDE.MPQ
+19:58:04: Opening C:\World of Warcraft\Data\deDE\locale-deDE.MPQ
+19:58:04: Opening C:\World of Warcraft\Data\deDE\base-deDE.MPQ
+19:58:04: Loaded Content TOC: v3.02.00
+19:58:04: Loaded Content Version: 10468
+19:58:04: Checking Archive C:\World of Warcraft\Data\patch-2.MPQ
+
+19:58:04: Checking Archive C:\World of Warcraft\Data\patch.MPQ
+
+19:58:04: Checking Archive C:\World of Warcraft\Data\lichking.MPQ
+
+19:58:04: Checking Archive C:\World of Warcraft\Data\expansion.MPQ
+
+19:58:04: Checking Archive C:\World of Warcraft\Data\common-2.MPQ
+
+19:58:04: Checking Archive C:\World of Warcraft\Data\common.MPQ
+
+19:58:05: Checking Archive C:\World of Warcraft\Data\deDE\patch-deDE-2.MPQ
+
+19:58:05: Checking Archive C:\World of Warcraft\Data\deDE\patch-deDE.MPQ
+
+19:58:05: Checking Archive C:\World of Warcraft\Data\deDE\lichking-locale-deDE.MPQ
+
+19:58:05: Checking Archive C:\World of Warcraft\Data\deDE\expansion-locale-deDE.MPQ
+
+19:58:05: Checking Archive C:\World of Warcraft\Data\deDE\locale-deDE.MPQ
+
+19:58:05: Checking Archive C:\World of Warcraft\Data\deDE\base-deDE.MPQ
+
+19:58:06: Initiating Databases...
+19:58:06: Finished initiating database files.
+19:58:06: WoW Model Viewer successfully loaded!
+----
+
+19:58:17: Loading model: Creature\Frostwurmnorthrend\frostwurmnorthrend.m2
+
+19:58:17: Loading texture: SPELLS\CLOUDS8X8.BLP
+19:58:17: Loading texture: PARTICLES\SNOWFLAKE.BLP
+19:58:17: Loading texture: ITEM\OBJECTCOMPONENTS\HEAD\SMOOTHREFLECT.BLP
+19:58:17: Loading texture: INTERFACE\BUTTONS\GLOWSTAR.BLP
+19:58:18: Loading texture: Creature\Frostwurmnorthrend\DragonUndeadHead.blp
+19:58:18: Loading texture: Creature\Frostwurmnorthrend\DragonUndeadWing.blp
+19:58:18: Loading texture: Creature\Frostwurmnorthrend\DragonUndeadTorso.blp
+19:58:22: Loading texture: Creature\Frostwurmnorthrend\DragonUndeadHeadRed.blp
+19:58:22: Loading texture: Creature\Frostwurmnorthrend\DragonUndeadWingRed.blp
+19:58:22: Loading texture: Creature\Frostwurmnorthrend\DragonUndeadTorsoRed.blp
+19:58:27: Loading texture: Creature\Frostwurmnorthrend\DragonUndeadHead.blp
+19:58:27: Loading texture: Creature\Frostwurmnorthrend\DragonUndeadWing.blp
+19:58:27: Loading texture: Creature\Frostwurmnorthrend\DragonUndeadTorso.blp
+20:38:26: Shuting down the program...
+
+20:38:26: Info: GUI Layout was saved.
