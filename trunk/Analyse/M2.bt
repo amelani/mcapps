@@ -1,0 +1,153 @@
+typedef struct 
+{
+	int16	InterpolationType;
+	int16	GlobalSequenceID;
+	uint32	numberOfTimestampPairs;
+	uint32	offsetToTimestampPairs;
+	uint32	numberOfKeyFramePairs;
+	uint32	offsetToKeyFramePairs;
+} ABlock;
+
+typedef struct 
+{
+	char	Identifier[4];// 	 Some kind of ID, starts with '$'. Some identifiers below.
+	uint32	Id;// 	Just an id. Is referenced in the lookup-block below too.
+	uint32	Bone;// 	Somewhere it has to be attached.
+	float	Position[3];// 	Relative to that bone of course.
+	uint16	InterpolationType;//	This is some fake-AnimationBlock.
+	uint16 	GlobalSequence;// 	Built up like a real one but without values. What the fuck?
+	uint32	nTimestamps;// 	See the documentation on AnimationBlocks at this topic.
+	uint32	ofsTimestamps;// 	Will most likely be the same shit again as in the real ones. 
+} sAttachments_2;
+
+typedef struct 
+{
+	uint32	Id;//  	 Just an id. Is referenced in the lookup-block below too.
+	uint32 	Bone;//  	Somewhere it has to be attached.
+	float	Position[3];//  	Relative to that bone of course.
+	ABlock 	Data;// 	Its an integer in the data. It has been 1 on all models I saw. Whatever. 
+} sAttachments;
+
+typedef struct 
+{
+	float	Position[3];
+	byte	BoneWeight[4];
+	byte	BoneIndices[4];
+	float	Normal[3];
+	float	TextureCoords[2];
+	float	Unknown[2];
+} Vertices;
+
+typedef struct 
+{
+	uint16	AnimationID;//	Animation id in AnimationData.dbc
+	uint16	SubAnimationID;//	Sub-animation id: Which number in a row of animations this one is.
+	uint32	Length;//	The length (timestamps) of the animation. I believe this actually the length of the animation in milliseconds.
+	float	MovingSpeed;//	As 2.x says: moving speed for walk/run animations.
+	uint32	Flags;//	Most likely. All flags I saw: 0b01101101
+	uint32	Flags2;//	Only the first 4 bits are the actual flags. The rest is 1. Seen flags: 0,3,6,7
+	uint32	Unknown1;//	These two are connected. Most of the time, they are 0.
+	uint32	Unknown2;//	But if there is data in one, there is data in both of them.
+	uint32	PlaybackSpeed;//	Values: 0, 50, 100, 150, 200, 250, 300, 350, 500.
+	float	BoundingBox[6];//	A Bounding Box made out of 2 vectors.
+	float	Radius;//	The radius.
+	int16	NextAnimation;//	Id of the following animation of this AnimationID, points to an Index or is -1 if none.
+	uint16	Index;//	Id in the list of animations. 
+} sAnimations;
+
+typedef struct 
+{
+	int32	AnimationSeq;
+	uint32	Flags;
+	int16	ParentBone;
+	int16	unknown1;
+	uint16	GeosetID;
+	int16	unknown2;
+	ABlock	Translation;
+	ABlock	Rotation;
+	ABlock	Scaling;
+	float	PivotPoint[3];
+} Bone;
+
+CHAR Magic[4];
+uint Version;
+uint lName;
+uint ofsName;
+uint GlobalModelFlags;
+uint nGlobalSequences;
+uint ofsGlobalSequences;
+uint nAnimations;
+uint ofsAnimations;
+uint nAnimationLookup;
+uint ofsAnimationLookup;
+uint nBones;
+uint ofsBones;
+uint nKeyBoneLookup;
+uint ofsKeyBoneLookup;
+uint nVertices;
+uint ofsVertices;
+uint nViews;
+uint nColors;
+uint ofsColors;
+uint nTextures;
+uint ofsTextures;
+uint nTransparency;
+uint ofsTransparency;
+uint nTextureanimations;
+uint ofsTextureanimations;
+uint nTexReplace;
+uint ofsTexReplace;
+uint nRenderFlags;
+uint ofsRenderFlags;
+uint nBoneLookupTable;
+uint ofsBoneLookupTable;
+uint nTexLookup;
+uint ofsTexLookup;
+uint nTexUnits;
+uint ofsTexUnits;
+uint nTransLookup;
+uint ofsTransLookup;
+uint nTexAnimLookup;
+uint ofsTexAnimLookup;
+float TheFLoats[14];
+uint nBoundingTriangles;
+uint ofsBoundingTriangles;
+uint nBoundingVertices;
+uint ofsBoundingVertices;
+uint nBoundingNormals;
+uint ofsBoundingNormals;
+uint nAttachments;
+uint ofsAttachments;
+uint nAttachLookup;
+uint ofsAttachLookup;
+uint nAttachments_2;
+uint ofsAttachments_2;
+uint nLights;
+uint ofsLights;
+uint nCameras;
+uint ofsCameras;
+uint nCameraLookup;
+uint ofsCameraLookup;
+uint nRibbonEmitters;
+uint ofsRibbonEmitters;
+uint nParticleEmitters;
+uint ofsParticleEmitters;
+
+FSeek(ofsBones);
+Bone _Bones[nBones];
+FSeek(ofsVertices);
+Vertices _Vertices[nVertices];
+FSeek(ofsBoneLookupTable);
+uint16 _BoneLookupTable[nBoneLookupTable];
+FSeek(ofsKeyBoneLookup);
+uint16 _KeyBoneLookup[nKeyBoneLookup];
+FSeek(ofsAnimationLookup);
+uint16 _AnimationLookup[nAnimationLookup];
+FSeek(ofsAnimations);
+sAnimations _Animations[nAnimations];
+FSeek(ofsAttachments);
+sAttachments _Attachments[nAttachments];
+FSeek(ofsAttachLookup);
+int16 _AttachLookup[nAttachLookup];
+FSeek(ofsAttachments_2);
+sAttachments_2 _Attachments_2[nAttachments_2];
